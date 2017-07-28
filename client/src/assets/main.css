@@ -1,0 +1,560 @@
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+#mainContainer {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.nav-tabs {
+    font-size: 16px;
+}
+
+.nav-tabs > .active {
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 0;
+    border-bottom: 4px solid #b4e051;
+    color: #000 !important;
+    background-color: transparent !important;
+}
+.nav-tabs > li > a {
+    border-radius: 0;
+}
+
+#workOrderColumn {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#workOrderListContainer,
+#singleWorkOrderContainer {
+    padding-left: 20px;
+}
+
+#openWorkOrdersTab,
+#closedWorkOrdersTab {
+    font-size: 16px;
+}
+
+#openWorkOrdersTab a.btn-link,
+#closedWorkOrdersTab a.btn-link {
+    padding: 0;
+    font-size: 16px;
+}
+
+#openWorkOrdersTab thead,
+#closedWorkOrdersTab thead {
+    background-color: #e0e0e0;
+}
+
+#openWorkOrdersTab button.btn-link,
+#closedWorkOrdersTab button.btn-link {
+    float: right;
+}
+
+#openWorkOrdersTab td.no-wrap,
+#closedWorkOrdersTab td.no-wrap {
+    white-space: nowrap;
+}
+
+#openWorkOrderDetail button,
+#closedWorkOrderDetail button {
+    float: right;
+    background-color: #4178be;
+    border-color: #2f598e;
+}
+
+#openWorkOrderDetail,
+#closedWorkOrderDetail {
+    background-color: #f8f8f8;
+    padding: 20px;
+    overflow: scroll;
+    height: 100%;
+}
+
+.no-scroll {
+    height: 100%;
+    overflow: hidden;
+}
+
+#watsonIcon {
+    padding-bottom: 20px;
+}
+
+#infoColumn {
+    background-color: #2f598e;
+    color: #fff;
+    padding-left: 20px;
+    overflow-y: scroll;
+}
+
+#infoWorkOrderId {
+    color: #aeaeae;
+    margin-bottom: 20px;
+}
+
+.customer-info {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    border-bottom: 1px solid #aeaeae;
+}
+
+#infoCustomerName {
+    border-top: 1px solid #aeaeae;
+}
+
+.customer-info img {
+    width: 30px;
+    margin-right: 15px;
+    /*margin-left: 20px;*/
+    float: left;
+}
+
+#infoCustomerPurchase img {
+    margin-bottom: 5px;
+}
+
+#backToWorkOrdersButton,
+#backToSingleWorkOrderButton {
+    color: #fff;
+    padding-left: 0;
+}
+
+.customer-info button,
+.customer-info a {
+    color: #7cc7ff;
+    padding: 0;
+    font-size: 14px;
+}
+
+#infoEquipmentSerial {
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+#workOrderDetailContent {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    overflow-y: scroll;
+}
+
+#workOrderDetailContent img {
+    float: left;
+    width: 30px;
+    margin-right: 15px;
+}
+
+#symptomsTitle {
+    margin-left: 45px;
+    margin-top: 0;
+}
+
+#workOrderDetailIssue {
+    margin-left: 45px;
+    color: #777677;
+    line-height: 1.3333333;
+}
+
+#serviceHistoryContent,
+#customerDetailContent {
+    padding-left: 20px;
+}
+
+#backToWorkOrderDetailButton,
+#backToWorkOrderDetailFromCustomerButton {
+    color: #4178be;
+    padding-left: 0;
+    padding-bottom: 5px;
+}
+
+#serviceHistoryTitle,
+#customerDetailTitle {
+    margin-top: 10px;
+}
+
+.service-history-item {
+    width: 100%;
+    border-bottom: 1px solid #aeaeae;
+}
+
+.service-history-item-date {
+    color: #777677;
+    padding-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    float: left;
+}
+
+.service-history-item-score {
+    color: #4b8400;
+    padding-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+}
+
+.service-history-item-first {
+    border-top: 1px solid #aeaeae;
+}
+
+.service-history-item-text {
+    font-size: 20px;
+    color: #000;
+    line-height: 1.3333333;
+    margin-left: 230px;
+    margin-top: 10px
+}
+
+.service-history-item-text button.btn-link {
+    color: #4178be;
+    padding-left: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#primaryContactPhoneButton,
+#primaryContactEmailButton {
+    color: #4178be;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#primaryContactInfo {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #aeaeae;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#primaryContactName {
+    line-height: 1.3333333;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#primaryContactNotes {
+    line-height: 1.3333333;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+#primaryContactTitle {
+    color: #777677;
+}
+
+.solution-box {
+    padding-left: 20px;
+    padding-right: 45px;
+    background-color: #f8f8f8;
+    border: 1px solid #aeaeae;
+    display: inline-block;
+    margin-left: 45px;
+    width: 550px;
+}
+
+.predictive-box {
+    padding-left: 20px;
+    padding-right: 45px;
+    background-color: #d2d2d2;
+    border: 1px solid #888888;
+    display: inline-block;
+    margin-left: 45px;
+    margin-bottom: 25px;
+    width: 550px;
+}
+
+.solution-box img.solution-watson-icon {
+    float: left;
+    width: 30px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.solution-success,
+.solution-time {
+    font-size: 22px;
+    color: #4b8400;
+    line-height: 1.3333333;
+    white-space: nowrap;
+    margin: 6px 15px;
+}
+
+.solution-success {
+    float: right;
+    margin-right: 45px;
+}
+
+.solution-time {
+    display: inline-block;
+}
+
+.solution-success img,
+.solution-time img {
+    float: left;
+    width: 30px;
+}
+
+.solution-box button.btn-success {
+    float: left;
+    background-color: #4178be;
+    border-color: #2f598e;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-left: 45px;
+    margin-right: 20px;
+}
+
+.solution-text {
+    margin-left: 45px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    margin-bottom: 20px;
+}
+
+/*#socialColumn {*/
+    /*padding-right: 0;*/
+/*}*/
+
+/*#slackFrame {*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*position: absolute;*/
+/*}*/
+
+#solutionDetailContent {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#openNotesButton {
+    float: right;
+}
+
+#notesIcon {
+    width: 30px;
+}
+
+#solutionInfo {
+    height: 100%;
+}
+
+/*#solutionTitle {*/
+    /*font-size: 16px;*/
+    /*line-height: 1.3333333;*/
+/*}*/
+
+#solutionInfoButtons {
+    /*position: absolute;*/
+    padding-top: 30px;
+    bottom: 0;
+    padding-bottom: 20px;
+    padding-left: 8px;
+}
+
+#solutionInfoButtons button {
+    width: 200px;
+    height: 52px;
+    margin-bottom: 15px;
+    border-color: #2f598e;
+}
+
+#completeCheckIcon {
+    float: left;
+    width: 30px;
+    margin-left: 20px;
+}
+
+#completeCheckText {
+    margin: 6px 10px;
+    line-height: 18px;
+}
+
+#troubleshootButton {
+    background-color: #4178be;
+}
+
+#completeButton {
+    background-color: #4b8400;
+}
+
+#solutionInfoWorkOrderId {
+    color: #aeaeae;
+    margin-bottom: 20px;
+}
+
+.solution-info-content {
+    color: #e0e0e0;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.3333333;
+}
+
+.solution-info-content img {
+    width: 24px;
+    margin-right: 12px;
+    float: left;
+}
+
+.solution-info-content b {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.solution-info-content ul {
+    margin-top: 10px;
+    list-style-type:none;
+}
+
+#solutionTimeContainer,
+#solutionSuccessContainer {
+    margin: 12px 15px;
+    color: #b4e051;
+}
+
+#solutionSuccessContainer {
+    margin-bottom: 20px;
+}
+
+#solutionNotesId {
+    color: #777677;
+}
+
+.passage-box {
+    border: 1px solid #aeaeae;
+    width: 600px;
+    color: #5a5a5a;
+    margin-bottom: 40px;
+}
+
+.passage-text {
+    display: inline-block;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 45px;
+    font-size: 16px;
+}
+
+.passage-box h3 {
+    color: #464646;
+}
+
+.passage-box button {
+    color: #4178be;
+    padding: 5px 0;
+}
+
+.passage-rating-container {
+    background-color: #e0e0e0;
+    border-top: 1px solid #aeaeae;
+    height: 66px;
+}
+
+.passage-rating {
+    float: right;
+    margin: 6px 15px;
+}
+
+.passage-rating-container .rating-stars{
+    color: #4178be !important;
+}
+
+.passage-rating-container .rating-container {
+    color: #fff !important;
+}
+
+#solutionNotesText {
+    font-size: 16px;
+}
+
+#summaryHeadlineContainer {
+    background-color: #e0e0e0;
+}
+
+.summary-container {
+    border-top: 1px solid #aeaeae;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.summary-container h2,
+.summary-container h4,
+.summary-container h5,
+#summaryIssueText,
+#summarySolutionSnippet,
+#summaryNotesText {
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+#summaryIssueText,
+#summarySolutionSnippet,
+#summaryNotesText {
+    font-size: 16px;
+    padding-right: 40px;
+}
+
+#backFromSummaryButton {
+    color: #4178be;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+#closeButton {
+    background-color: #4b8400;
+    float: right;
+    width: 200px;
+    height: 52px;
+    margin: 20px 40px 20px 20px;
+    border-color: #2f598e;
+}
+
+#closeCheckIcon {
+    float: left;
+    width: 30px;
+    margin-left: 20px;
+}
+
+#closeCheckText {
+    margin: 6px 10px;
+    line-height: 18px;
+}
+
+.btn-map-link {
+    text-align: left;
+}
+
+#alertContainer {
+    padding-right: 20px;
+}
+
+#alertContainer .alert {
+    text-align: center;
+    font-size: 18px;
+}
+
+#solutionInfoScrollable {
+    overflow: scroll;
+}
+
+#map-canvas {
+    height: 600px;
+}
+
+#openMapTab {
+    margin-right: 20px;
+    margin-top: 20px;
+}

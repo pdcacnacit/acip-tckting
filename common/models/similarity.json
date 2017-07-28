@@ -1,0 +1,46 @@
+{
+  "name": "similarity",
+  "plural": "similarities",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [
+    {
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "DENY",
+      "property": "*"
+    },
+    {
+      "principalType": "ROLE",
+      "principalId": "$authenticated",
+      "permission": "ALLOW",
+      "property": "*"
+    }
+  ],
+  "methods": {
+    "getSimilarWorkOrders": {
+      "isStatic": true,
+      "accepts": [
+        {
+          "arg": "id",
+          "type": "string"
+        }
+      ],
+      "returns": {
+        "arg": "body",
+        "type": "Object",
+        "root": true
+      },
+      "description": "Retrieves a list similar work orders for the id passed in",
+      "http": {
+        "verb": "get"
+      }
+    }
+  }
+}

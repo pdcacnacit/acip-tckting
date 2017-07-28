@@ -1,0 +1,46 @@
+<h3 class="page-header">Review Document</h3>
+<div id="doc-admin-container">
+  <div *ngIf="!reviewResponse">
+    <form id="docAdminForm" #docAdminForm="ngForm" (ngSubmit)="reviewDocument(docAdminForm)" class="form-horizontal">
+      <!-- File to Upload -->
+      <div class="form-group">
+        <label for="fileInput">Select Document to Upload:</label>
+        <input type="file" name="fileInput" id="fileInput" class="form-control" #fileInput>
+      </div>
+      <!-- buttons -->
+      <div class="form-group">
+        <button type="button" routerLink="../au-admin-table">Cancel</button>
+        <button type="submit">Review</button>
+      </div>
+    </form>
+  </div>
+  <div *ngIf="reviewResponse">
+    <div *ngFor="let answerUnit of reviewResponse.converted_document.answer_units">
+      <div class="form-group">
+        <label for="answerUnitId">Answerunit Id:</label>
+        <input type="text" name="answerUnitId" id="answerUnitId" class="form-control" [ngModel]="answerUnit.id" readonly>
+      </div>
+      <div class="form-group">
+        <label for="answerUnitTitle">Title:</label>
+        <input type="text" name="answerUnitTitle" id="answerUnitTitle" class="form-control" [(ngModel)]="answerUnit.title">
+      </div>
+      <div class="form-group">
+        <label for="estimatedTimeMinutes">Estimated Time Minutes:</label>
+        <input type="text" name="estimatedTimeMinutes" id="estimatedTimeMinutes" class="form-control" [(ngModel)]="answerUnit.estimatedTimeMinutes">
+      </div>
+      <div class="form-group">
+        <label for="successHeuristic">Success Heuristic:</label>
+        <input type="text" name="successHeuristic" id="successHeuristic" class="form-control" [(ngModel)]="answerUnit.successHeuristic">
+      </div>
+      <div class="form-group">
+        <label for="answerUnitText">Answerunit Text:</label>
+        <textarea name="answerUnitText" rows="5" style="width:90%; margin-left:40px;" id="answerUnitText" class="form-control" [(ngModel)]="answerUnit.content[1].text"></textarea>
+      </div>
+    </div>
+    <!-- buttons -->
+    <div class="form-group">
+      <button type="button" routerLink="../au-admin-table">Cancel</button>
+      <button type="button" (click)="indexDocument()">Index</button>
+    </div>
+  </div>
+</div>

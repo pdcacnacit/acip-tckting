@@ -1,0 +1,70 @@
+<h3 class="page-header">Work Order Admin</h3>
+<div id="workorder-container" *ngIf="workOrder">
+  <form id="workOrderForm" #workOrderForm="ngForm" (ngSubmit)="saveWorkOrder(workOrderForm)" class="form-horizontal">
+    <!-- workOrderId -->
+    <div class="form-group">
+      <label for="workOrderId">Work Order Id:</label> <input type="text" name="workOrderId" id="workOrderId" [(ngModel)]="workOrder.workOrderId" readonly class="form-control">
+    </div>
+    <!-- isClosed -->
+    <div class="form-group">
+      <label for="isClosed">isClosed: </label>
+      <input type="checkbox"
+            name="isClosed" id="isClosed" [(ngModel)]="workOrder.isClosed"
+            class="form-control">
+    </div>
+    <!-- solutionAnswerId -->
+    <div class="form-group" *ngIf="workOrder.isClosed">
+      <label for="solutionAnswerId">Solution Answer Id:</label>
+      <select name="solutionAnswerId" id="solutionAnswerId" [(ngModel)]="workOrder.solutionAnswerId" (ngModelChange)="onSolutionChange($event)" class="form-control">
+        <option *ngFor="let answerId of answerIds" [value]="answerId.id">{{answerId.id}} - {{answerId.title}}</option>
+      </select>
+    </div>
+    <!-- solutionTitle -->
+    <div class="form-group" *ngIf="workOrder.isClosed">
+      <label for="solutionTitle">Solution Title:</label> <input type="text" name="solutionTitle" id="solutionTitle" [(ngModel)]="workOrder.solutionTitle" class="form-control" readonly>
+    </div>
+    <!-- timeString -->
+    <div class="form-group">
+      <label for="timeString">Time String:</label> <input type="text" name="timeString" id="timeString" [(ngModel)]="workOrder.timeString" class="form-control">
+    </div>
+    <!-- dateString -->
+    <div class="form-group">
+      <label for="dateString">Date String:</label> <input type="text" name="dateString" id="dateString" [(ngModel)]="workOrder.dateString" class="form-control">
+    </div>
+    <!-- customerName -->
+    <div class="form-group">
+      <label for="customerName">Customer Name:</label> <input type="text" name="customerName" id="customerName" [(ngModel)]="workOrder.customerName" class="form-control" readonly>
+    </div>
+    <!-- customerAddress -->
+    <div class="form-group">
+      <label for="customerAddress">Customer Address:</label> <input type="text" name="customerAddress" id="customerAddress" [(ngModel)]="workOrder.customerAddress" class="form-control" readonly>
+    </div>
+    <!-- equipmentName -->
+    <div class="form-group">
+      <label for="equipmentName">Equipment Name:</label> <input type="text" name="equipmentName" id="equipmentName" [(ngModel)]="workOrder.equipmentName" class="form-control">
+    </div>
+    <!-- equipmentSerial -->
+    <div class="form-group">
+      <label for="equipmentSerial">Equipment Serial:</label> <input type="text" name="equipmentSerial" id="equipmentSerial" [(ngModel)]="workOrder.equipmentSerial" class="form-control">
+    </div>
+    <!-- issueSnippet -->
+    <div class="form-group">
+      <label for="issueSnippet">Issue Snippet:</label> <input type="text" name="issueSnippet" id="issueSnippet" [(ngModel)]="workOrder.issueSnippet" class="form-control">
+    </div>
+    <!-- issueText -->
+    <div class="form-group">
+      <label for="issueText">Issue Text:</label> <input type="text" name="issueText" id="issueText" [(ngModel)]="workOrder.issueText" class="form-control">
+    </div>
+    <!-- partsList -->
+    <h5>Parts List</h5>
+    <app-one-list [(listToManage)]="partsListNvp"></app-one-list>
+    <!-- toolsList -->
+    <h5>Tools List</h5>
+    <app-one-list [(listToManage)]="toolsListNvp"></app-one-list>
+    <!-- buttons -->
+    <div class="form-group">
+      <button type="button" routerLink="../../wo-admin-table">Cancel</button>
+      <button type="submit">Save</button>
+    </div>
+  </form>
+</div>

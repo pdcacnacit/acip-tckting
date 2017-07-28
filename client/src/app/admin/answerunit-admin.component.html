@@ -1,0 +1,32 @@
+<h3 class="page-header">Answer Unit Admin</h3>
+<div id="answerunit-container" *ngIf="answerUnit">
+  <form id="answerUnitForm" #answerUnitForm="ngForm" (ngSubmit)="saveAnswerUnit(answerUnitForm)" class="form-horizontal">
+    <!-- answerId -->
+    <div class="form-group">
+      <label for="answerId">Answer Id:</label> <input type="text" name="answerId" id="answerId" [(ngModel)]="answerUnit.answerId" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="title">Title:</label> <input type="text" name="title" id="title" [(ngModel)]="answerUnit.title" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="body">Body:</label> <input type="text" name="body" id="body" [(ngModel)]="answerUnit.body" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="bodySnippet">Body Snippet:</label> <input type="text" name="bodySnippet" id="bodySnippet" [(ngModel)]="answerUnit.bodySnippet" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="sourceTitle">Source Title:</label> <input type="text" name="sourceTitle" id="sourceTitle" [(ngModel)]="answerUnit.sourceTitle" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="estimatedTimeMinutes">Estimated Time Minutes:</label> <input type="text" name="estimatedTimeMinutes" id="estimatedTimeMinutes" [(ngModel)]="answerUnit.estimatedTimeMinutes" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="successHeuristic">Success Heuristic:</label> <input type="text" name="successHeuristic" id="successHeuristic" [(ngModel)]="answerUnit.successHeuristic" class="form-control">
+    </div>
+    <!-- buttons -->
+    <div class="form-group">
+      <button type="button" routerLink="../../au-admin-table">Cancel</button>
+      <button type="submit">Save</button>
+    </div>
+  </form>
+</div>

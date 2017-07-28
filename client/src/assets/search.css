@@ -1,0 +1,74 @@
+#searchContainer {
+    background-color: #1d3649;
+    height: 200px;
+    border: none;
+}
+
+#searchColumn {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#searchWrapperColumn {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#searchIcon {
+    background-color: #1d3649;
+    border: none;
+}
+
+#searchTextInput {
+    background-color: #1d3649;
+    border: 0 solid #fff;
+    border-bottom-width: 1px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+#searchInputGroup {
+    color: #fff;
+    padding-left: 48px;
+}
+
+#searchModelOnlyLabel {
+    color: #777677;
+}
+
+#searchResultsContainer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#searchResultsList h3 {
+    color: #4178be;
+}
+
+#searchResultsList p {
+    padding-left: 12px;
+}
+
+#searchResultsList {
+    overflow: scroll;
+}
+
+#searchResultDetailTitle {
+    color: #4178be;
+}
+
+#searchResultImageContainer {
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#searchResultImageContainer img {
+    margin: 0 auto;
+    height: 200px;
+}
+
+#carouselOuterContainer {
+    padding-bottom: 20px;
+}

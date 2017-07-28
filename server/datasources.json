@@ -1,0 +1,37 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory",
+    "file": "mem_db.json"
+  },
+  "workorders-cloudant": {
+    "url": "${CLOUDANT_CONNECTION_URL}",
+    "database": "${WORKORDERS_DB}",
+    "name": "workorders-cloudant",
+    "connector": "cloudant"
+  },
+  "customers-cloudant": {
+    "url": "${CLOUDANT_CONNECTION_URL}",
+    "database": "${CUSTOMERS_DB}",
+    "name": "customers-cloudant",
+    "connector": "cloudant"
+  },
+  "answerunits-cloudant": {
+    "url": "${CLOUDANT_CONNECTION_URL}",
+    "database": "${ANSWERUNITS_DB}",
+    "name": "answerunits-cloudant",
+    "connector": "cloudant"
+  },
+  "similarity-cloudant": {
+    "url": "${CLOUDANT_CONNECTION_URL}",
+    "database": "${SIMILARITIES_DB}",
+    "name": "similarity-cloudant",
+    "connector": "cloudant"
+  },
+  "sysconfig-cloudant": {
+    "url": "${CLOUDANT_CONNECTION_URL}",
+    "database": "${SYSCONFIG_DB}",
+    "name": "sysconfig-cloudant",
+    "connector": "cloudant"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db",
+    "public": false
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Auth": {
+    "dataSource": "db",
+    "public": true,
+    "options": {
+      "remoting": {
+        "sharedMethods": {
+          "*": false,
+          "login": true,
+          "logout": true
+        }
+      }
+    }
+  },
+  "workorder": {
+    "dataSource": "workorders-cloudant",
+    "public": true
+  },
+  "customer": {
+    "dataSource": "customers-cloudant",
+    "public": true
+  },
+  "answerunit": {
+    "dataSource": "answerunits-cloudant",
+    "public": true
+  },
+  "similarity": {
+    "dataSource": "similarity-cloudant",
+    "public": true
+  },
+  "retrieverank": {
+    "dataSource": null,
+    "public": true
+  },
+  "prediction": {
+    "dataSource": null,
+    "public": true
+  },
+  "iot-event": {
+    "dataSource": null,
+    "public": true
+  }
+}

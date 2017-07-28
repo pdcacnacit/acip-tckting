@@ -1,0 +1,32 @@
+<!-- Customer -->
+<h3 class="page-header">Similarity Admin</h3>
+<div *ngIf="similarity">
+  <form id="similarityForm" #customerForm="ngForm" (ngSubmit)="saveSimilarity(similarityForm)" class="form-horizontal">
+    <!-- customerName -->
+    <div class="form-group">
+      <label for="workOrderId">Work Order Id:</label>
+      <input type="text" name="workOrderId" id="workOrderId" [(ngModel)]="similarity.workOrderId" class="form-control" readonly>
+    </div>
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>Work Order Id</th>
+          <th>Similarity Score</th>
+          <th>Similarity Percentage</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let sim of similarity.similarityList">
+          <td>{{sim.workOrderId}}</td>
+          <td>{{sim.similarityScore}}</td>
+          <td>{{sim.similarityPercentage}}</td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- buttons -->
+    <div class="form-group">
+      <button type="button" routerLink="../../wo-admin-table">Cancel</button>
+      <button type="submit">Save</button>
+    </div>
+  </form>
+</div>

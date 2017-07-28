@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.3 (16618) - http://www.bohemiancoding.com/sketch -->
+    <title>work orders</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="work-orders" sketch:type="MSLayerGroup" fill="#ffffff">
+            <path d="M0,0 L0,7.68 L0,8.64 L0,15.36 L0,16.32 L0,24 L24,24 L24,16.32 L24,15.36 L24,8.64 L24,7.68 L24,0 L0,0 L0,0 Z M23.04,23.04 L0.96,23.04 L0.96,16.32 L23.04,16.32 L23.04,23.04 L23.04,23.04 Z M23.04,15.36 L0.96,15.36 L0.96,8.64 L23.04,8.64 L23.04,15.36 L23.04,15.36 Z M19.68,2.88 C20.47536,2.88 21.12,3.52464 21.12,4.32 C21.12,5.11536 20.47536,5.76 19.68,5.76 C18.88464,5.76 18.24,5.11536 18.24,4.32 C18.24,3.52464 18.88464,2.88 19.68,2.88 L19.68,2.88 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+            <circle id="Oval" sketch:type="MSShapeGroup" cx="19.68" cy="12" r="1.44"></circle>
+            <circle id="Oval" sketch:type="MSShapeGroup" cx="19.68" cy="19.68" r="1.44"></circle>
+        </g>
+    </g>
+</svg>

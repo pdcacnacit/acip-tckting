@@ -1,0 +1,34 @@
+<div id="woAdminWrapperColumn">
+  <div>
+    <h1 class="page-header">AnswerUnit Admin</h1>
+    <alert *ngIf="showAlert" [type]="alert.type" dismissible="true"><span [innerHtml]="alert.msg"></span></alert>
+    <button class="btn btn-default" routerLink="../wo-admin-table">Work Order Admin</button>
+    <button class="btn btn-success" routerLink="../doc-admin">Add a New Answer Unit</button>
+    <div>
+      <table class="table table-condenced table-hover">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Source</th>
+            <th>Action</th>
+        </thead>
+        <tbody>
+          <tr *ngFor="let answerUnit of answerUnits">
+            <td>{{answerUnit.title}}</td>
+            <td>{{answerUnit.sourceTitle}}</td>
+            <td>
+              <div class="btn-group" dropdown>
+                <button id="single-button" type="button" class="btn btn-primary" dropdownToggle>
+                  Actions <span class="caret"></span>
+                </button>
+                <ul dropdownMenu role="menu" aria-labelledby="single-button">
+                  <li role="menuitem"><a class="dropdown-item" routerLink="../answerunit-admin/{{answerUnit.answerId}}">Edit AnswerUnit</a></li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

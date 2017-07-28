@@ -1,0 +1,649 @@
+{
+  "docs": [
+    {
+      "_id": "52398210",
+      "loopback__model__name": "workorder",
+      "workOrderId": "52398210",
+      "isClosed": true,
+      "solutionTitle": "",
+      "solutionAnswerId": "",
+      "timeString": "8:00 AM",
+      "dateString": "Sep 7, 2013",
+      "customerName": "IBM Corp",
+      "customerAddress": "11500 Burnet Rd, Austin, TX 78758",
+      "equipmentName": "MonoSpace 500",
+      "equipmentSerial": 11588184,
+      "issueSnippet": "Lift - Stuck on the 7th floor - OOO - access time - 24hrs",
+      "issueText": "Lift - Stuck on the 7th floor - OOO - access time - 24hrs.",
+      "partsList": [
+        "KM606040G0X Drive board"
+      ],
+      "toolsList": [
+        "Supply cable KM606054G01"
+      ],
+      "customerTip": "",
+      "bonusFix": "Made repair to landing door checked operation left in service.",
+      "technicianNotes": "",
+      "predictionData": [
+        11588184,
+        "Running",
+        "No Fault Found",
+        42
+      ]
+    },
+    {
+      "_id": "60023259",
+      "loopback__model__name": "workorder",
+      "workOrderId": "60023259",
+      "isClosed": true,
+      "solutionTitle": "Door does not move",
+      "solutionAnswerId": "202ddccd-3099-4f95-bd75-fde17c8c8b01",
+      "timeString": "2:30 PM",
+      "dateString": "Jul 13, 2014",
+      "customerName": "IBM Corp",
+      "customerAddress": "11500 Burnet Rd, Austin, TX 78758",
+      "equipmentName": "MonoSpace 700",
+      "equipmentSerial": 11588745,
+      "issueSnippet": "KRM Not responding to test calls - Possible break between Phasers.",
+      "issueText": "KRM Not responding to test calls - Possible break between Phasers.",
+      "partsList": [
+        "KM903370G0X Motor",
+        "KM606760R0X Fit kit (drive board and motor)"
+      ],
+      "toolsList": [],
+      "customerTip": "",
+      "bonusFix": "",
+      "technicianNotes": "Dismantled brake cleaned reassembled, checked operation left.",
+      "predictionData": [
+        11588745,
+        "Not Running",
+        "No Fault Found",
+        50
+      ]
+    },
+    {
+      "_id": "77320234",
+      "loopback__model__name": "workorder",
+      "workOrderId": "77320234",
+      "isClosed": true,
+      "solutionTitle": "Checking landing lock rollers",
+      "solutionAnswerId": "2dd0d667-6e44-492c-96c8-c4d09733102e",
+      "timeString": "4:00 PM",
+      "dateString": "May 22, 2014",
+      "customerName": "Pennybacker Landscaping",
+      "customerAddress": "Loop 360 and Lake Austin, Austin, TX 78746",
+      "equipmentName": "MonoSpace 500",
+      "equipmentSerial": 11588746,
+      "issueSnippet": "Tower Block Pass Lift 3 stuck on 2nd floor, needs checking.",
+      "issueText": "Tower Block Pass Lift 3 stuck on 2nd floor, needs checking.",
+      "partsList": [],
+      "toolsList": [
+        "KM606061G05",
+        "D15 drive board 606060G01"
+      ],
+      "customerTip": "",
+      "bonusFix": "",
+      "technicianNotes": "",
+      "predictionData": [
+        11588746,
+        "Running Correctly",
+        "Technical Failure",
+        100
+      ]
+    },
+    {
+      "_id": "85482934",
+      "loopback__model__name": "workorder",
+      "workOrderId": "85482934",
+      "isClosed": true,
+      "solutionTitle": "Car door end buffer",
+      "solutionAnswerId": "f59addd9-5244-4b33-a167-9ad97648a222",
+      "timeString": "2:00 PM",
+      "dateString": "Dec 4, 2015",
+      "customerName": "Tivoli",
+      "customerAddress": "10000 Research Blvd, Austin, TX 78759",
+      "equipmentName": "MonoSpace 500",
+      "equipmentSerial": 11589877,
+      "issueSnippet": "Pass Lift not responding to calls, doors open.",
+      "issueText": "Pass Lift not responding to calls, doors open.",
+      "partsList": [],
+      "toolsList": [
+        "D15 transformer KM606055G01",
+        "Cover sticker KM606056G01"
+      ],
+      "customerTip": "",
+      "bonusFix": "",
+      "technicianNotes": "",
+      "predictionData": [
+        11589877,
+        "Running",
+        "Technical Failure",
+        705
+      ]
+    },
+    {
+      "_id": "85528606",
+      "loopback__model__name": "workorder",
+      "workOrderId": "85528606",
+      "isClosed": true,
+      "solutionTitle": "Increasing closing force of door closing spring",
+      "solutionAnswerId": "31f60d8c-a7dd-4e3c-a6c6-448e4e7ced4c",
+      "timeString": "2:30 PM",
+      "dateString": "Jul 23, 2015",
+      "customerName": "Texas BB Quantum Systems",
+      "customerAddress": "18300 FM 1826, Driftwood, TX 78619",
+      "equipmentName": "MonoSpace 700",
+      "equipmentSerial": 42000280,
+      "issueSnippet": "Stopping on every single floor. Access- 24hrs. Site contact.",
+      "issueText": "Stopping on every single floor. Access- 24hrs. Site contact.",
+      "partsList": [],
+      "toolsList": [
+        "Instructions 606062",
+        "4x cable tie"
+      ],
+      "customerTip": "",
+      "bonusFix": "",
+      "technicianNotes": "",
+      "predictionData": [
+        42000280,
+        "Not Running",
+        "Technical Failure",
+        21
+      ]
+    },
+    {
+      "_id": "85626364",
+      "loopback__model__name": "workorder",
+      "workOrderId": "85626364",
+      "isClosed": true,
+      "solutionTitle": "Checking landing lock rollers",
+      "solutionAnswerId": "2dd0d667-6e44-492c-96c8-c4d09733102e",
+      "timeString": "2:30 PM",
+      "dateString": "Dec 6, 2013",
+      "customerName": "Pennybacker Landscaping",
+      "customerAddress": "Loop 360 and Lake Austin, Austin, TX 78746",
+      "equipmentName": "MonoSpace 500",
+      "equipmentSerial": 42073042,
+      "issueSnippet": "Doors sticking on ground floor.",
+      "issueText": "Doors sticking on ground floor.",
+      "partsList": [],
+      "toolsList": [
+        "D15 drive board 606060G01"
+      ],
+      "customerTip": "",
+      "bonusFix": "",
+      "technicianNotes": "",
+      "predictionData": [
+        42073042,
+        "Running",
+        "Technical Failure",
+        73
+      ]
+    },
+    {
+      "_id": "85798759",
+      "loopback__model__name": "workorder",
+      "workOrderId": "85798759",
+      "isClosed": true,
+      "solutionTitle": "Changing door closer wire",
+      "solutionAnswerId": "b0e70159-f471-418b-ab1c-fcafc833b0ee",
+      "timeString": "11:30 AM",
+      "dateString": "Jan 17, 2015",
+      "customerName": "IBM Corp",
+      "customerAddress": "11500 Burnet Rd, Austin, TX 78758",
+      "equipmentName": "MonoSpace 700",
+      "equipmentSerial": 42001876,
+      "issueSnippet": "Isolated as not leveling on 5th floor.",
+      "issueText": "Isolated as not leveling on 5th floor.",
+      "partsList": [],
+      "toolsList": [
+        "Supply cable KM606054G01"
+      ],
+      "customerTip": "",
+      "bonusFix": "",
+      "technicianNotes": "",
+      "predictionData": [
+        42001876,
+        "Running Correctly",
+        "No Fault Found",
+        51
+      ]
+    },
+    {
+      "_id": "85798783",
+      "loopback__model__name": "workorder",
+      "workOrderId": "85798783",
+      "isClosed": true,
+      "solutionTitle": "Changing door closer wire",
+      "solutionAnswerId": "b0e70159-f471-418b-ab1c-fcafc833b0ee",
+      "timeString": "10:00 AM",
+      "dateString": "Apr 4, 2015",
+      "customerName": "RP Entertainment",
+      "customerAddress": "208 W 4th St, Austin, TX 78701",
+      "equipmentName": "MonoSpace 500",
+      "equipmentSerial": 42012236,
+      "issueSnippet": "Not leveling mainly on floor 6.",
+      "issueText": "Not leveling mainly on floor 6.",
+      "partsList": [],
+      "toolsList": [
+        "D15 motor KM903375G08",
+        "Cover sticker KM606056G01"
+      ],
+      "customerTip": "",
+      "bonusFix": "",
+      "technicianNotes": "",
+      "predictionData": [
+        42012236,
+        "Running",
+        "No Fault Found",
+        14
+      ]
+    },
+    {
+      "_id": "85798966",
+      "loopback__model__name": "workorder",
+      "workOrderId": "85798966",
+      "isClosed": true,
+      "solutionTitle": "Door does not reopen",
+      "solutionAnswerId": "b612d361-6b90-4d0d-bb5b-784a1b267fe5",
+      "timeString": "3:30 PM",
+      "dateString": "Aug 23, 2015",
+      "customerName": "DJW Enterprises",
+      "customerAddress": "2201 Raintree Path, Round Rock, TX 78664",
+      "equipmentName": "MonoSpace 500",
+      "equipmentSerial": 42112803,
+      "issueSnippet": "Corridor side doors shutting but internal lift doors not.",
+      "issueText": "Corridor side doors shutting but internal lift doors not.",
+      "partsList": [],
+      "toolsList": [
+        "Instructions 606062"
+      ],
+      "customerTip": "",
+      "bonusFix": "",
+      "technicianNotes": "",
+      "predictionData": [
+        42112803,
+        "Running Correctly",
+        "Technical Failure",
+        31
+      ]
+    },
+    {
+      "_id": "87237532",
+      "loopback__model__name": "workorder",
+      "workOrderId": "87237532",
+      "isClosed": true,
+      "solutionTitle": "Eliminating noise",
+      "solutionAnswerId": "2fcc09a2-27de-4302-ba32-8f494c2de149",
+      "timeString": "12:30 PM",
+      "dateString": "Feb 6, 2015",
+      "customerName": "Texas BB Quantum Systems",
+      "customerAddress": "18300 FM 1826, Driftwood, TX 78619",
+      "equipmentName": "MonoSpace 500",
+      "equipmentSerial": 40341456,
+      "issueSnippet": "I.R.Incorrectly fitted counterweight guide shoe liner be rep.",
+      "issueText": "I.R.Incorrectly fitted counterweight guide shoe liner be rep.",
+      "partsList": [],
+      "toolsList": [
+        "4x cable tie",
+        "2x low head screw"
+      ],
+      "customerTip": "",
+      "bonusFix": "",
+      "technicianNotes": "",
+      "predictionData": [
+        40341456,
+        "Running Correctly",
+        "No Fault Found",
+        11
+      ]
+    },
+    {
+      "_id": "87492057",
+      "loopback__model__name": "workorder",
+      "workOrderId": "87492057",
+      "isClosed": true,
+      "solutionTitle": "Door does not move",
+      "solutionAnswerId": "202ddccd-3099-4f95-bd75-fde17c8c8b01",
+      "timeString": "11:30 AM",
+      "dateString": "Jan 17, 2016",
+      "customerName": "Tivoli",
+      "customerAddress": "10000 Research Blvd, Austin, TX 78759",
+      "equipmentName": "MonoSpace 700",
+      "equipmentSerial": 11085943,
+      "issueSnippet": "Staff Lift stuck on 5th floor, not reponding",
+      "issueText": "Staff Lift stuck on 5th floor, not reponding",
+      "partsList": [],
+      "toolsList": [
+        "D15 drive board 606060G01"
+      ],
+      "customerTip": "",
+      "bonusFix": "",
+      "technicianNotes": "",
+      "predictionData": [
+        11085943,
+        "Not Running",
+        "Technical Failure",
+        60
+      ]
+    },
+    {
+      "_id": "88236104",
+      "loopback__model__name": "workorder",
+      "workOrderId": "88236104",
+      "isClosed": true,
+      "solutionTitle": "Adding extra closing weight",
+      "solutionAnswerId": "cc029a2f-c490-48b1-8f6c-4bd2443c2a81",
+      "timeString": "8:30 AM",
+      "dateString": "Oct 5, 2015",
+      "customerName": "Texas BB Quantum Systems",
+      "customerAddress": "18300 FM 1826, Driftwood, TX 78619",
+      "equipmentName": "MonoSpace 700",
+      "equipmentSerial": 42025448,
+      "issueSnippet": "Weight has come off door mechanism on floor 6.",
+      "issueText": "Weight has come off door mechanism on floor 6.",
+      "partsList": [],
+      "toolsList": [
+        "Supply cable KM606054G01",
+        "4x cable tie"
+      ],
+      "customerTip": "",
+      "bonusFix": "",
+      "technicianNotes": "",
+      "predictionData": [
+        42025448,
+        "Running Correctly",
+        "Technical Failure",
+        60
+      ]
+    },
+    {
+      "_id": "94374460",
+      "loopback__model__name": "workorder",
+      "workOrderId": "94374460",
+      "isClosed": true,
+      "solutionTitle": "Eliminating noise",
+      "solutionAnswerId": "2fcc09a2-27de-4302-ba32-8f494c2de149",
+      "timeString": "1:30 PM",
+      "dateString": "Aug 23, 2015",
+      "customerName": "IBM Corp",
+      "customerAddress": "11500 Burnet Rd, Austin, TX 78758",
+      "equipmentName": "MonoSpace 500",
+      "equipmentSerial": 11085943,
+      "issueSnippet": "Making growling noise when going up.",
+      "issueText": "Making growling noise when going up.",
+      "partsList": [],
+      "toolsList": [
+        "Supply cable KM606065G01"
+      ],
+      "customerTip": "",
+      "bonusFix": "",
+      "technicianNotes": "",
+      "predictionData": [
+        11085943,
+        "Not Running",
+        "No Fault Found",
+        25
+      ]
+    },
+    {
+      "_id": "94374480",
+      "loopback__model__name": "workorder",
+      "workOrderId": "94374480",
+      "isClosed": true,
+      "solutionTitle": "Door does not move",
+      "solutionAnswerId": "202ddccd-3099-4f95-bd75-fde17c8c8b01",
+      "timeString": "8:15 AM",
+      "dateString": "Nov 8, 2015",
+      "customerName": "RP Entertainment",
+      "customerAddress": "208 W 4th St, Austin, TX 78701",
+      "equipmentName": "EcoSpace",
+      "equipmentSerial": 42001876,
+      "issueSnippet": "RH lift Conrad Court inner door not opening on 1st floor.",
+      "issueText": "RH lift Conrad Court inner door not opening on 1st floor.",
+      "partsList": [
+        "005K12670 Gearbox and Motor, Process Drive"
+      ],
+      "toolsList": [
+        "Cover sticker KM606056G01",
+        "Instructions 606062"
+      ],
+      "customerTip": "",
+      "bonusFix": "",
+      "technicianNotes": "",
+      "predictionData": [
+        42001876,
+        "Running Correctly",
+        "External Cause",
+        10
+      ]
+    },
+    {
+      "_id": "94375523",
+      "loopback__model__name": "workorder",
+      "workOrderId": "94375523",
+      "isClosed": true,
+      "solutionTitle": "Changing motor",
+      "solutionAnswerId": "945000d7-6669-4cdb-b897-9906b82a97f1",
+      "timeString": "9:30 AM",
+      "dateString": "Nov 6, 2015",
+      "customerName": "DJW Enterprises",
+      "customerAddress": "2201 Raintree Path, Round Rock, TX 78664",
+      "equipmentName": "MonoSpace 500",
+      "equipmentSerial": 42073042,
+      "issueSnippet": "Lift stuck between two floors. Alarm problem",
+      "issueText": "Lift stuck between two floors. Alarm problem",
+      "partsList": [],
+      "toolsList": [],
+      "customerTip": "",
+      "bonusFix": "",
+      "technicianNotes": "",
+      "predictionData": [
+        42073042,
+        "Running Correctly",
+        "External Cause",
+        704
+      ]
+    },
+    {
+      "_id": "94827652",
+      "loopback__model__name": "workorder",
+      "workOrderId": "94827652",
+      "isClosed": true,
+      "solutionTitle": "How to Eliminating noise",
+      "solutionAnswerId": "2fcc09a2-27de-4302-ba32-8f494c2de149",
+      "timeString": "4:00 PM",
+      "dateString": "Sep 18, 2015",
+      "customerName": "Tivoli",
+      "customerAddress": "10000 Research Blvd, Austin, TX 78759",
+      "equipmentName": "MiniSpace",
+      "equipmentSerial": 40312766,
+      "issueSnippet": "Noise - grinding noise when in travel.",
+      "issueText": "Noise - grinding noise when in travel.",
+      "partsList": [],
+      "toolsList": [
+        "T-Handle Torque Phillips Screwdriver, 6 Nm"
+      ],
+      "customerTip": "",
+      "bonusFix": "check the Pick and Strip Solenoid as well",
+      "technicianNotes": "",
+      "predictionData": [
+        40312766,
+        "Running Correctly",
+        "Technical Failure",
+        100
+      ]
+    },
+    {
+      "_id": "952332519",
+      "loopback__model__name": "workorder",
+      "workOrderId": "952332519",
+      "isClosed": false,
+      "timeString": "9:00 AM",
+      "dateString": "Jan 13, 2015",
+      "customerName": "IBM Corp",
+      "customerAddress": "11500 Burnet Rd, Austin, TX 78758",
+      "equipmentName": "KONE Mono500",
+      "equipmentSerial": 11588746,
+      "issueSnippet": "Running: Not stopping accurately: Doors open on 2nd - Estop",
+      "issueText": "Running: Not stopping accurately: Doors open on 2nd - Estop",
+      "partsList": [
+        "LOP230 board"
+      ],
+      "toolsList": [
+        "Standard maintenance tool bag",
+        "Electrostatic Discharge (ESD) kit."
+      ],
+      "customerTip": "",
+      "bonusFix": "Check noisy door on the 5th floor.",
+      "predictionData": [
+        11588746,
+        "Running Correctly",
+        "External Cause",
+        17
+      ]
+    },
+    {
+      "_id": "952332533",
+      "loopback__model__name": "workorder",
+      "workOrderId": "952332533",
+      "isClosed": false,
+      "timeString": "8:00 AM",
+      "dateString": "Jan 13, 2015",
+      "customerName": "DJW Enterprises",
+      "customerAddress": "2201 Raintree Path, Round Rock, TX 78664",
+      "equipmentName": "KONE Mono500",
+      "equipmentSerial": 42011757,
+      "issueSnippet": "The elevator door does not close and is stuck on the 3rd floor: Curtain of light",
+      "issueText": "The elevator door does not close and is stuck on the 3rd floor: Curtain of light",
+      "partsList": [
+        "AR-03.18.006: AMD safety devices",
+        "AR-10.22.007: Cabinet version controller and LCE electrification in KONE MonoSpace"
+      ],
+      "toolsList": [
+        "Standard maintenance tool KM50009502R01",
+        "Door blocking tool KM871952G01"
+      ],
+      "customerTip": "",
+      "bonusFix": "Adjust the potentiometer GAIN until 50 % displays on the MENU display.",
+      "calloutPrediction": [],
+      "predictionData": [
+        42011757,
+        "Running",
+        "No Fault Found",
+        28
+      ]
+    },
+    {
+      "_id": "952332540",
+      "loopback__model__name": "workorder",
+      "workOrderId": "952332540",
+      "isClosed": false,
+      "timeString": "11:00 AM",
+      "dateString": "Jan 13, 2015",
+      "customerName": "Tivoli",
+      "customerAddress": "10000 Research Blvd, Austin, TX 78759",
+      "equipmentName": "KONE Mono500",
+      "equipmentSerial": 11588745,
+      "issueSnippet": "Not Running: On limit switch - top: Tower Block Pass Lift 3 has some lights out in the car",
+      "issueText": "Not Running: On limit switch - top: Tower Block Pass Lift 3 has some lights out in the car",
+      "partsList": [
+        "LCECCB board"
+      ],
+      "toolsList": [
+        "Standard maintenance tool bag",
+        "Door blocking tool for sliding doors"
+      ],
+      "customerTip": "",
+      "bonusFix": "Enable landing calls. LCEUI switch 261.",
+      "predictionData": [
+        11588745,
+        "Running Correctly",
+        "No Fault Found",
+        53
+      ]
+    },
+    {
+      "_id": "9523325551",
+      "loopback__model__name": "workorder",
+      "workOrderId": "9523325551",
+      "isClosed": false,
+      "timeString": "1:00 PM",
+      "dateString": "Jan 13, 2015",
+      "customerName": "RP Entertainment",
+      "customerAddress": "208 W 4th St, Austin, TX 78701",
+      "equipmentName": "KONE Mono500",
+      "equipmentSerial": 42025448,
+      "issueSnippet": "Not Running: Between floors: Stopping below level on the 6th",
+      "issueText": "Not Running: Between floors: Stopping below level on the 6th",
+      "partsList": [
+        "KRM board(s)"
+      ],
+      "toolsList": [
+        "LCESIB module, KM51133155G01",
+        "Standard maintenance tool bag, KM50009502R01"
+      ],
+      "customerTip": "",
+      "bonusFix": "Test the LCESIB by using the Recall Drive Feature",
+      "predictionData": [
+        42025448,
+        "Running",
+        "External Cause",
+        53
+      ]
+    },
+    {
+      "_id": "9523325555",
+      "loopback__model__name": "workorder",
+      "workOrderId": "9523325555",
+      "isClosed": false,
+      "timeString": "2:30 PM",
+      "dateString": "Jan 13, 2015",
+      "customerName": "Pennybacker Landscaping",
+      "customerAddress": "Loop 360 and Lake Austin, Austin, TX 78746",
+      "equipmentName": "KONE Mono500",
+      "equipmentSerial": 11085943,
+      "issueSnippet": "Not Running: The elevator is making scratching noises",
+      "issueText": "Not Running: The elevator is making scratching noises",
+      "partsList": [
+        "960K35170 Drum Heater Relay Board"
+      ],
+      "toolsList": [],
+      "customerTip": "",
+      "bonusFix": "Check Process Drive",
+      "predictionData": [
+        11085943,
+        "Running",
+        "Technical Failure",
+        22
+      ]
+    },
+    {
+      "_id": "9523325570",
+      "loopback__model__name": "workorder",
+      "workOrderId": "9523325570",
+      "isClosed": false,
+      "timeString": "4:00 PM",
+      "dateString": "Jan 13, 2015",
+      "customerName": "Texas BB Quantum Systems",
+      "customerAddress": "18300 FM 1826, Driftwood, TX 78619",
+      "equipmentName": "KONE Mono500",
+      "equipmentSerial": 42098805,
+      "issueSnippet": "Running: Operational malfunction: Stopping on every single floor",
+      "issueText": "Running: Operational malfunction: Stopping on every single floor",
+      "partsList": [],
+      "toolsList": [
+        "Standard maintenance tool bag, KM50009502R01.",
+        "Locking set for main switch, KM854281."
+      ],
+      "customerTip": "",
+      "bonusFix": "",
+      "predictionData": [
+        42098805,
+        "Running Correctly",
+        "External Cause",
+        22
+      ]
+    }
+  ]
+}

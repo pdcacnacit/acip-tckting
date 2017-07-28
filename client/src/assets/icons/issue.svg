@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="26px" height="23px" viewBox="0 0 26 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.3 (16618) - http://www.bohemiancoding.com/sketch -->
+    <title>warning_32</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="warning_32" sketch:type="MSLayerGroup" fill="#000000">
+            <g id="Group" sketch:type="MSShapeGroup">
+                <path d="M13,0 L0,22.5333333 L26,22.5333333 L13,0 L13,0 Z M13,3.4684 L22.9987333,20.8 L3.00126667,20.8 L13,3.4684 L13,3.4684 Z" id="Shape"></path>
+                <path d="M12.1333333,9.53333333 L12.1333333,11.2666667 L12.5666667,15.6 L13.4333333,15.6 L13.8666667,11.2666667 L13.8666667,9.53333333 L12.1333333,9.53333333 Z" id="Shape"></path>
+                <ellipse id="Oval" cx="13" cy="17.3333333" rx="0.866666667" ry="0.866666667"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

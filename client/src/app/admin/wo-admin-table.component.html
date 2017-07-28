@@ -1,0 +1,42 @@
+<div id="woAdminWrapperColumn">
+  <div>
+    <h1 class="page-header">Work Order Admin</h1>
+    <alert *ngIf="showAlert" [type]="alert.type" dismissible="true"><span [innerHtml]="alert.msg"></span></alert>
+    <button class="btn btn-default" routerLink="../au-admin-table">Answer Unit Admin</button>
+    <div>
+      <table class="table table-condenced table-hover">
+        <thead>
+          <tr>
+            <th>Work Order Id</th>
+            <th>Customer</th>
+            <th>Time</th>
+            <th>Issue</th>
+            <th>Closed</th>
+            <th>Action</th>
+        </thead>
+        <tbody>
+          <tr *ngFor="let workOrder of workOrders">
+            <td>{{workOrder.workOrderId}}</td>
+            <td>{{workOrder.customerName}}</td>
+            <td>{{workOrder.timeString}}</td>
+            <td>{{workOrder.issueSnippet}}</td>
+            <td>{{workOrder.isClosed}}</td>
+            <td>
+              <div class="btn-group" dropdown>
+                <button id="single-button" type="button" class="btn btn-primary" dropdownToggle>
+                  Actions <span class="caret"></span>
+                </button>
+                <ul dropdownMenu role="menu" aria-labelledby="single-button">
+                  <li role="menuitem"><a class="dropdown-item" routerLink="../wo-admin/{{workOrder.workOrderId}}">Edit WorkOrder</a></li>
+                  <li role="menuitem"><a class="dropdown-item" routerLink="../customer-admin/{{workOrder.customerName}}">Edit Customer</a></li>
+                  <li *ngIf="!workOrder.isClosed" role="menuitem"><a class="dropdown-item" routerLink="../similarity-admin/{{workOrder.workOrderId}}">Edit Similar Orders</a></li>
+                  <li *ngIf="workOrder.solutionAnswerId" role="menuitem"><a class="dropdown-item" routerLink="../answerunit-admin/{{workOrder.solutionAnswerId}}">Edit Answer Units</a></li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

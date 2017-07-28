@@ -1,0 +1,152 @@
+{
+  "docs": [
+      {
+        "_id": "DJW Enterprises",
+        "loopback__model__name": "customer",
+        "customerName": "DJW Enterprises",
+        "customerAddress": "2201 Raintree Path, Round Rock, TX 78664",
+        "customerLevel": "Gold",
+        "warrantyExpiration": "January 2017",
+        "warrantyDetail": "Gold provides that the Phaser 8400 color printer and its Consumables, Routine Maintenance Items, and Options/Upgrades (related items) will be free from defects in materials and workmanship for the periods set out as follows: Printer: a period of one (1) year from the date of shipment or 300,000 prints, whichever comes first.  Consumable (ink and toner): until ink or original toner is consumed.  Routine Maintenance Items (RMI) (for specific examples refer to the product user manual): the period of the remaining printer warranty or 90 days from date of installation, whichever is greater, except where longer periods are required by law. (These items are not covered once the “low-life” message appears.)  Options/Upgrades (such as memory, high-capacity feeder, etc.): the period of the remaining printer warranty or 90 days from the date of purchase, whichever is greater, except where longer periods are required by law.  Accessories (such as carts, dust covers, cleaning kits, etc.): 90 days from the date of purchase except where longer periods are required by law.",
+        "purchaseDateString": "Sept 2014",
+        "serviceHistory": [
+          "85798966",
+          "94375523"
+        ],
+        "coveredEquipment": [
+          "KONE Mono500"
+        ],
+        "primaryContact": {
+          "contactName": "Donald J. Wilson",
+          "contactPhoneDisplayText": "(512) 555-1212",
+          "contactPhone": "1-512-555-1212",
+          "contactEmail": "donwillson55@yahoo.com",
+          "contactNotes": "Available only from Wednesday to Fridays"
+        }
+    },
+    {
+        "_id": "IBM Corp",
+        "loopback__model__name": "customer",
+        "customerName": "IBM Corp",
+        "customerAddress": "11500 Burnet Rd, Austin, TX 78758",
+        "customerLevel": "Gold",
+        "warrantyExpiration": "June 2018",
+        "warrantyDetail": "Gold provides that the Phaser® Printer will be free from defects in materials and workmanship for a period of one (1) year from the date of shipment. If the product proves defective during the warranty period, Xerox, at its option, will: repair the product by means of telephone support or depot service at no charge for parts or labor, replace the product with a comparable product, replace the product with a remanufactured unit, or refund the amount paid for the product, less a reasonable allowance for usage, upon its return.   Under this product warranty, the Customer must notify Xerox or its authorized service representative of the defect before the expiration of the warranty period. To obtain service under this warranty, the Customer must first contact Xerox Telephone Support personnel or that of its authorized service representative. Telephone Support personnel will work to resolve issues professionally and quickly, however the Customer must reasonably assist Xerox or its authorized representative.",
+        "purchaseDateString": "June 2013",
+        "serviceHistory": [
+          "85798759",
+          "94374460",
+          "60023259",
+          "52398210"
+        ],
+        "coveredEquipment": [
+          "KONE Mono500"
+        ],
+        "primaryContact": {
+          "contactName": "Dexter Henderson",
+          "contactPhoneDisplayText": "(877) 426-6006",
+          "contactPhone": "1-877-426-6006",
+          "contactEmail": "henderde@us.ibm.com",
+          "contactNotes": "IBM Reprographics / Print on Demand, their office is at building 993 if needed, 11550 Stonehollow Dr."
+        }
+    },
+    {
+        "_id": "Pennybacker Landscaping",
+        "loopback__model__name": "customer",
+        "customerName": "Pennybacker Landscaping",
+        "customerAddress": "Loop 360 and Lake Austin, Austin, TX 78746",
+        "customerLevel": "Silver",
+        "warrantyExpiration": "August 2017",
+        "warrantyDetail": "Silver is limited to 2 on-site visits per year within 1 working day, with a maximum of 2 print head replacements. Coverage includes parts and labor. The plan provides 2 years of coverage after the initial 1 year limited warranty included, and is 'stackable' to get up to 3 years of total coverage (1 year limited warranty and 2 years of extended service). This extended service plan does not affect or change the initial 1 year limited warranty included.",
+        "purchaseDateString": "January 2013",
+        "serviceHistory": [
+          "85626364",
+          "77320234"
+        ],
+        "coveredEquipment": [
+          "KONE Mono500"
+        ],
+        "primaryContact": {
+          "contactName": " Carole Keeton",
+          "contactPhoneDisplayText": "(512) 974-7058",
+          "contactPhone": "1-512-974-7058",
+          "contactEmail": "skeeton@pennybacker.org",
+          "contactNotes": "Contact works from home on Fridays and in inclement weather"
+        }
+    },
+    {
+        "_id": "RP Entertainment",
+        "loopback__model__name": "customer",
+        "customerName": "RP Entertainment",
+        "customerAddress": " 208 W 4th St, Austin, TX 78701",
+        "customerLevel": "Bronze",
+        "warrantyExpiration": "November 2018",
+        "warrantyDetail": "Bronze package defines: technical response within 2 working hours, 1 on-site visit with response within 2 working days, and all telephone, web, and engineer support, including all parts, labour, and transport costs in the US mainland.",
+        "purchaseDateString": "June 2014",
+        "serviceHistory": [
+          "85798783",
+          "94374480"
+        ],
+        "coveredEquipment": [
+          "KONE Mono500"
+        ],
+        "primaryContact": {
+          "contactName": "Reinhard Schauberger",
+          "contactPhoneDisplayText": "(512) 474-5171",
+          "contactPhone": "512-474-5171",
+          "contactEmail": "danwig@austin.rr.com",
+          "contactNotes": "email address goes to admin"
+        }
+    },
+    {
+        "_id": "Texas BB Quantum Systems",
+        "loopback__model__name": "customer",
+        "customerName": "Texas BB Quantum Systems",
+        "customerAddress": "18300 FM 1826, Driftwood, TX 78619",
+        "customerLevel": "Bronze",
+        "warrantyExpiration": "June 2018",
+        "warrantyDetail": "Bronze package defines: technical response within 2 working hours, 1 on-site visit with response within 2 working days, and all telephone, web, and engineer support, including all parts, labour, and transport costs in the US mainland.",
+        "purchaseDateString": "November 2013",
+        "serviceHistory": [
+          "87237532",
+          "85528606",
+          "88236104"
+        ],
+        "coveredEquipment": [
+          "KONE Mono500"
+        ],
+        "primaryContact": {
+          "contactName": "Bettie Howard",
+          "contactPhoneDisplayText": "(512) 829-5285",
+          "contactPhone": "512-829-5285",
+          "contactEmail": "bettie_how@yahoo.com",
+          "contactNotes": "Open weekdays 10-11, unit is located in corporate office printer room"
+        }
+    },
+    {
+        "_id": "Tivoli",
+        "loopback__model__name": "customer",
+        "customerName": "Tivoli",
+        "customerAddress": "10000 Research Blvd, Austin, TX 78759",
+        "customerLevel": "Silver",
+        "warrantyExpiration": "July 2016",
+        "warrantyDetail": "Silver is limited to 2 on-site visits per year within 1 working day, with a maximum of 2 print head replacements. Coverage includes parts and labor. The plan provides 2 years of coverage after the initial 1 year limited warranty included, and is 'stackable' to get up to 3 years of total coverage (1 year limited warranty and 2 years of extended service). This extended service plan does not affect or change the initial 1 year limited warranty included.",
+        "purchaseDateString": "May 2014",
+        "serviceHistory": [
+          "94827652",
+          "85482934",
+          "87492057"
+        ],
+        "coveredEquipment": [
+          "KONE Mono500"
+        ],
+        "primaryContact": {
+          "contactName": "David Lindelow",
+          "contactPhoneDisplayText": "(512) 338-4437",
+          "contactPhone": "1-512-338-4437",
+          "contactEmail": "dlindlow@tivoli.com",
+          "contactNotes": "Open 10am-9pm M-F, Sat 12-6"
+        }
+      }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "iot-event",
+  "plural": "iot-events",
+  "base": "Model",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [{
+    "principalType": "ROLE",
+    "principalId": "$everyone",
+    "permission": "DENY",
+    "property": "*"
+  },
+  {
+    "principalType": "ROLE",
+    "principalId": "$authenticated",
+    "permission": "ALLOW",
+    "property": "*"
+  }],
+  "methods": {
+    "startIoTEventEmitter": {
+      "isStatic": true,
+      "accepts": [],
+      "returns": {
+        "arg": "body",
+        "root": true
+      },
+      "http": {
+        "verb": "post"
+      }
+    },
+    "statusOfIoTEventEmitter": {
+      "isStatic": true,
+      "accepts": [],
+      "returns": {
+        "arg": "body",
+        "root": true
+      },
+      "http": {
+        "verb": "get"
+      }
+    }
+  }
+}

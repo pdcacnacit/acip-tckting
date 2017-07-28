@@ -1,0 +1,10 @@
+#chatFrame {
+    width: 100%;
+    height: 768px;
+    padding: 0;
+    position: absolute;
+}
+
+#socialColumn {
+    padding: 0;
+}

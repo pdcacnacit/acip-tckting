@@ -1,0 +1,99 @@
+{
+  "_id": "10000001",
+  "loopback__model__name": "similarity",
+  "workOrderId": "10000001",
+  "workOrderIdList": [
+    "85482934",
+    "87492057",
+    "94374460",
+    "52398210",
+    "85626364",
+    "94374480",
+    "77320234",
+    "88236104",
+    "85528606",
+    "87237532",
+    "85798759",
+    "85798966",
+    "60023259",
+    "94375523",
+    "94827652"
+  ],
+  "similarityList": [
+    {
+      "workOrderId": "85482934",
+      "similarityScore": 0.9847319278346632,
+      "similarityPercentage": "98%"
+    },
+    {
+      "workOrderId": "87492057",
+      "similarityScore": 0.9539590550898299,
+      "similarityPercentage": "95%"
+    },
+    {
+      "workOrderId": "94374460",
+      "similarityScore": 0.11941628680530647,
+      "similarityPercentage": "12%"
+    },
+    {
+      "workOrderId": "52398210",
+      "similarityScore": 0.0847173742087358,
+      "similarityPercentage": "8%"
+    },
+    {
+      "workOrderId": "85626364",
+      "similarityScore": 0.06579516949597691,
+      "similarityPercentage": "7%"
+    },
+    {
+      "workOrderId": "94374480",
+      "similarityScore": 0.06356417261637284,
+      "similarityPercentage": "6%"
+    },
+    {
+      "workOrderId": "77320234",
+      "similarityScore": 0.06356417261637284,
+      "similarityPercentage": "6%"
+    },
+    {
+      "workOrderId": "88236104",
+      "similarityScore": 0.032897584747988456,
+      "similarityPercentage": "3%"
+    },
+    {
+      "workOrderId": "85528606",
+      "similarityScore": 0.03178208630818642,
+      "similarityPercentage": "3%"
+    },
+    {
+      "workOrderId": "87237532",
+      "similarityScore": 0.026860765467512687,
+      "similarityPercentage": "3%"
+    },
+    {
+      "workOrderId": "85798759",
+      "similarityScore": 0,
+      "similarityPercentage": "0%"
+    },
+    {
+      "workOrderId": "85798966",
+      "similarityScore": 0,
+      "similarityPercentage": "0%"
+    },
+    {
+      "workOrderId": "60023259",
+      "similarityScore": 0,
+      "similarityPercentage": "0%"
+    },
+    {
+      "workOrderId": "94375523",
+      "similarityScore": 0,
+      "similarityPercentage": "0%"
+    },
+    {
+      "workOrderId": "94827652",
+      "similarityScore": 0,
+      "similarityPercentage": "0%"
+    }
+  ]
+}

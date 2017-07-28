@@ -1,0 +1,147 @@
+{
+  "name": "workorder",
+  "plural": "workorders",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [
+    {
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "DENY",
+      "property": "*"
+    },
+    {
+      "principalType": "ROLE",
+      "principalId": "$authenticated",
+      "permission": "ALLOW",
+      "property": "*"
+    }
+  ],
+  "methods": {
+    "completeWorkorder": {
+      "isStatic": true,
+      "accepts": [
+        {
+          "arg": "workOrderId",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "returns": {
+        "arg": "body",
+        "type": "Object",
+        "root": true
+      },
+      "description": "Basically delete the work order from the system.",
+      "http": {
+        "verb": "post"
+      }
+    },
+    "createWorkOrderFromTemplate": {
+      "isStatic": true,
+      "accepts": [
+        {
+          "arg": "serialNr",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "returns": {
+        "arg": "body",
+        "type": "Object",
+        "root": true
+      },
+      "description": "Create a new Work Order based on a template.",
+      "http": {
+        "verb": "post"
+      }
+    },
+    "getComponentCodePrediction": {
+      "isStatic": true,
+      "accepts": [
+        {
+          "arg": "id",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "returns": {
+        "arg": "body",
+        "type": "Object",
+        "root": true
+      },
+      "description": "Call the predictive model with the data in the work order",
+      "http": {
+        "verb": "post"
+      }
+    },
+    "getServiceHistory": {
+      "isStatic": true,
+      "accepts": [
+        {
+          "arg": "ids",
+          "type": "array"
+        }
+      ],
+      "returns": {
+        "arg": "body",
+        "type": "Object",
+        "root": true
+      },
+      "description": "Retrieves a list of service orders based on an array of ids passed in",
+      "http": {
+        "verb": "get"
+      }
+    },
+    "getWorkOrderById": {
+      "isStatic": true,
+      "accepts": [
+        {
+          "arg": "id",
+          "type": "string"
+        }
+      ],
+      "returns": {
+        "arg": "body",
+        "type": "Object",
+        "root": true
+      },
+      "description": "Retrieve a specific work order based on the id passed in",
+      "http": {
+        "verb": "get"
+      }
+    },
+    "getWorkOrderIdList": {
+      "isStatic": true,
+      "accepts": [],
+      "returns": {
+        "arg": "body",
+        "type": "Object",
+        "root": true
+      },
+      "description": "Retrieve a list of work order ids",
+      "http": {
+        "verb": "get"
+      }
+    },
+    "getWordordersListAudited": {
+      "isStatic": true,
+      "accepts": [],
+      "returns": {
+        "arg": "body",
+        "type": "Object",
+        "root": true
+      },
+      "description": "Audit the work order and it's relationships and return a list of errors.",
+      "http": {
+        "verb": "get"
+      }
+    }
+  }
+}

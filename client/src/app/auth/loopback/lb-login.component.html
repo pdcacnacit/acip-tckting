@@ -1,0 +1,41 @@
+<div class="wrapper" id="loginWrapper">
+    <div class="container">
+        <div *ngIf="isError" class="alert alert-danger">
+          <p>{{errorMsg}}</p>
+        </div>
+        <div id="loginTextContainer">
+            <h1 style="color:white;">Watson Field Service Advisor</h1>
+        </div>
+        <form [formGroup]="loginForm" (ngSubmit)="submitLogin()" class="form">
+          <div class="form-group">
+            <input type="text" class="form-control base--input" id="username" formControlName="username" placeholder="Username"
+              spellcheck="false" autocomplete="off" autocorrect="off" autocapitalize="off">
+            <small [hidden]="loginForm.controls.username.valid || (loginForm.controls.username.pristine && !submitted)">
+              Username is required.
+            </small>
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control base--input" id="password" formControlName="password" placeholder="Password  ">
+            <small [hidden]="loginForm.controls.password.valid || (loginForm.controls.password.pristine && !submitted)">
+              Password is required.
+            </small>
+          </div>
+          <button type="submit" class="base--button base--button_submit" [disabled]="!loginForm.valid">Submit</button>
+        </form>
+
+    </div>
+
+    <!-- The little floating bubbles-->
+    <ul class="bg-bubbles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>

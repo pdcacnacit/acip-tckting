@@ -1,0 +1,22 @@
+{
+  "cloudantNoSQLDB": [
+    {
+    }
+  ],
+  "retrieve_and_rank": [
+    {
+    }
+  ],
+  "document_conversion": [
+    {
+    }
+  ],
+  "pm-20": [
+    {
+    }
+  ],
+  "iotf-service": [
+    {
+    }
+  ]
+}

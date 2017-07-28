@@ -1,0 +1,31 @@
+{
+  "_id": "10000001",
+  "loopback__model__name": "workorder",
+  "workOrderId": "10000001",
+  "isClosed": false,
+  "timeString": "7:30 AM",
+  "dateString": "",
+  "customerName": "DJW Enterprises",
+  "customerAddress": "2201 Raintree Path, Round Rock, TX 78664",
+  "equipmentName": "KONE Mono500",
+  "equipmentSerial": 42011757,
+  "issueSnippet": "The elevator door does not close and is stuck on the 2nd floor: Grinding noises detected",
+  "issueText": "The elevator door does not close and is stuck on the 2nd floor: Grinding noises detected",
+  "partsList": [
+    "AR-03.18.006: AMD safety devices",
+    "AR-10.22.007: Cabinet version controller and LCE electrification in KONE MonoSpace"
+  ],
+  "toolsList": [
+    "Standard maintenance tool KM50009502R01",
+    "Door blocking tool KM871952G01"
+  ],
+  "customerTip": "",
+  "bonusFix": "",
+  "calloutPrediction": [],
+  "predictionData": [
+    42011757,
+    "Running",
+    "No Fault Found",
+    28
+  ]
+}

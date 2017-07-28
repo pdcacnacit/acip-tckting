@@ -1,0 +1,67 @@
+<!-- Customer -->
+<h3 class="page-header">Customer Admin</h3>
+<div *ngIf="customer">
+  <form id="customerForm" #customerForm="ngForm" (ngSubmit)="saveCustomer(customerForm)" class="form-horizontal">
+    <!-- customerName -->
+    <div class="form-group">
+      <label for="customerName">Customer Name:</label> <input type="text" name="customerName" id="customerName" [(ngModel)]="customer.customerName" class="form-control" readonly>
+    </div>
+    <!-- customerAddress -->
+    <div class="form-group">
+      <label for="customerName">Customer Address:</label> <input type="text" name="customerAddress" id="customerAddress" [(ngModel)]="customer.customerAddress" class="form-control">
+    </div>
+    <!-- customerLevel -->
+    <div class="form-group">
+      <label for="customerLevel">Customer Level:</label> <input type="text" name="customerLevel" id="customerLevel" [(ngModel)]="customer.customerLevel" class="form-control">
+    </div>
+    <!-- warrantyExpiration -->
+    <div class="form-group">
+      <label for="warrantyExpiration">Warranty Expiration:</label> <input type="text" name="warrantyExpiration" id="warrantyExpiration" [(ngModel)]="customer.warrantyExpiration" class="form-control">
+    </div>
+    <!-- warrantyDetail -->
+    <div class="form-group">
+      <label for="warrantyDetail">Warranty Details:</label> <input type="text" name="warrantyDetail" id="warrantyDetail" [(ngModel)]="customer.warrantyDetail" class="form-control">
+    </div>
+    <!-- purchaseDateString -->
+    <div class="form-group">
+      <label for="purchaseDateString">Purchase Date:</label> <input type="text" name="purchaseDateString" id="purchaseDateString" [(ngModel)]="customer.purchaseDateString" class="form-control">
+    </div>
+    <!-- primaryContact.contactName -->
+    <div class="form-group">
+      <label for="contactName">Contact Name:</label> <input type="text" name="contactName" id="contactName" [(ngModel)]="customer.primaryContact.contactName" class="form-control">
+    </div>
+    <!-- primaryContact.contactPhoneDisplayText -->
+    <div class="form-group">
+      <label for="contactName">Contact Phone Display Text:</label> <input type="text" name="contactPhoneDisplayText" id="contactPhoneDisplayText" [(ngModel)]="customer.primaryContact.contactPhoneDisplayText" class="form-control">
+    </div>
+    <!-- primaryContact.contactPhone -->
+    <div class="form-group">
+      <label for="contactName">Contact Phone:</label> <input type="text" name="contactPhone" id="contactPhone" [(ngModel)]="customer.primaryContact.contactPhone" class="form-control">
+    </div>
+    <!-- primaryContact.contactEmail -->
+    <div class="form-group">
+      <label for="contactName">Contact Email:</label> <input type="text" name="contactEmail" id="contactEmail" [(ngModel)]="customer.primaryContact.contactEmail" class="form-control">
+    </div>
+    <!-- primaryContact.contactNotes -->
+    <div class="form-group">
+      <label for="contactName">Contact Notes:</label> <input type="text" name="contactNotes" id="contactNotes" [(ngModel)]="customer.primaryContact.contactNotes" class="form-control">
+    </div>
+    <!-- Service History -->
+    <div *ngIf="serviceHistory">
+      <h5>Service History</h5>
+      <table class="table table-condenced">
+        <tbody>
+          <tr *ngFor="let item of serviceHistory">
+            <td>{{item._id}}</td>
+            <td>{{item.issueSnippet}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- buttons -->
+    <div class="form-group">
+      <button type="button" routerLink="../../wo-admin-table">Cancel</button>
+      <button type="submit">Save</button>
+    </div>
+  </form>
+</div>

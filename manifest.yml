@@ -1,0 +1,8 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: acip-field-service-advisor-app
+  host: acip-field-service-advisor-app
+  disk_quota: 1024M
